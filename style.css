@@ -1,0 +1,215 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0;
+}
+
+h3 {
+    font-weight: bolder;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+p {
+    font-size: 18px;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex: auto;
+    align-items: center;
+    padding: 20px 200px;
+    margin: 0;
+}
+
+    .header-left {
+        display: flex;
+        flex: auto;
+        color: #F9FAF8;
+        font-size: 24px;
+        font-weight: bolder;
+        justify-content: flex-start;
+    }
+
+    .header-right {
+        display: flex;
+        flex: auto;
+        gap: 16px;
+        justify-content: flex-end;
+    }
+
+.vbox1 {
+    display: flex;
+    flex: auto;
+    background-color: #1F2937;
+    align-items: center;
+    padding: 100px 200px;
+    gap: 32px;
+}
+
+    .vbox1-left {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        min-width: 400px;
+    }
+
+        .vbox1-text {
+            color: #E5E7EB;
+        }
+
+        .button-vbox1 {
+            background-color: #3882F6;
+            border: none;
+            border-radius: 8px;
+            color: #E5E7EB;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 8px 28px;
+        }    
+
+    .vbox1-right {
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+    }
+        .pictures {
+            display: flex;
+            flex: 1;
+            width: 400px;
+        }
+
+.vbox2 {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    padding: 60px 200px;
+    gap: 60px;
+}
+
+    .vbox2-boxes {
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        align-items: center;
+        gap: 40px;
+    }
+
+        .vbox2-box {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #1F2937;
+        }
+
+        .icon {
+            width: 128px;
+            height: 128px;
+            border: 4px solid #3882F6;
+            border-radius: 12px;
+        }
+
+.vbox3 {
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+    .vbox3-text {
+        font-size: 36px;
+        font-style: italic;
+    }
+
+    .vbox3-attrib {
+        font-size: 18px;
+        font-weight: bold;
+        text-align: end;
+    }
+
+.vbox4 {
+    display: flex;
+    flex: auto;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+    .vbox4-banner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #3882F6;
+        color: #E5E7EB;
+        width: 800px;
+        border-radius: 8px;
+        padding: 30px 100px;
+    }
+
+        .vbox4-banner-left {
+            display: flex;
+            flex: auto;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .vbox4-banner-right {
+            display: flex;
+            flex: none;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+            .button-vbox4 {
+                background-color: #3882F6;
+                border: 2px solid #E5E7EB;
+                border-radius: 8px;
+                color: #E5E7EB;
+                font-size: 18px;
+                font-weight: bold;
+                padding: 8px 40px;
+            }
+
+.footer {
+    display: flex;
+    flex: auto;
+    padding: 30px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    justify-content: center;
+}
